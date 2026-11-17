@@ -8,7 +8,7 @@
 #define LED_PIN GPIO_PIN_1 /* TIM2_CH2, AF1 */
 #define LED_ACTIVE_HIGH 1  /* 1 = LED lights with HIGH, 0 = lights with LOW (PWM output polarity) */
 
-#define MOTOR_PIN GPIO_PIN_3
+#define MOTOR_PIN GPIO_PIN_3 // додав мотор на один порт з ЛЕД
 
 #define PWM_FREQ_HZ 1000U
 #define TIM_TICK_HZ 1000000U /* 16 MHz / PSC 16 */
